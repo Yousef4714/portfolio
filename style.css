@@ -298,13 +298,15 @@ margin:1px;
 .projects .content{
     transform: scale(1.25);
 }
- 
-     
+
     .content{display: flex;
      /* justify-content: space-around;  */
   align-content:center ;
 
 } 
+.serv .card{display: flex;
+flex-grow: 1;}
+
 }
 @media (width :1024px)and(height:600px) {
 .content{ display: flex;
