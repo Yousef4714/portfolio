@@ -49,7 +49,7 @@
         .logo {
             text-transform: uppercase;
             font-size: 48px;
-            padding-right:300px;
+            padding-right: 280px;
             /* position: relative;
             top: 100px;
             left:20px; */
@@ -71,33 +71,49 @@
         }
 
         .con {
-width:400px;
+            width: 400px;
             color: aliceblue;
             font-size: 19px;
-            position: absolute;
+            /* position: absolute;
             top: 220px;
-            right: 95px;
-display:flex;
-flex-wrap:wrap;
-justify-content: left;
-padding-right:840px;
+            right: 95px; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            /* padding-right:840px; */
         }
-        h2{
+
+        h2 {
             text-transform: uppercase;
-            font-size:100px;
+            font-size: 100px;
         }
-        button{
+
+        button {
+            margin-top: 20px;
             font-size: 40px;
-            padding:5px;
-            border-radius:15px;
-            border:solid 2px transparent;
+            padding: 1px 5px 4px 5px;
+            border-radius: 15px;
+            border: solid 2px transparent;
         }
-        button:hover{
-            background-color:transparent;
-            color:white;
-            border-color:white ;
+
+        button:hover {
+            background-color: transparent;
+            color: white;
+            border-color: white;
             cursor: pointer;
         }
+
+        section {
+            color: aliceblue;
+width:400px;
+flex-wrap:wrap ;
+padding-left: 8%;
+padding-TOP: 5% ;
+        }
+section p{
+    padding: 2% 0;
+}
+        /* @media */
     </style>
     <title>AVATAR | YousefAhmed</title>
 </head>
@@ -107,16 +123,7 @@ padding-right:840px;
     <div class="cont">
         <header>
             <a href="a" class="logo"> avatar</a>
-            <div class="con">
-                <h2>Avatar</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolore. Impedit atque provident quos
-                    quae
-                    nemo minus harum ut doloribus eaque, eum sint dolores nisi error quod at nulla delectus Lorem ipsum
-                    dolor sit, amet consectetur adipisicing elit. Sequi nihil possimus minima sunt corrupti rem, omnis
-                    et? Beatae molestias odio sapiente, laudantium quis necessitatibus deserunt fugiat modi
-                    voluptatibus. Et, placeat.</p>
-                <button>click here</button>
-            </div>
+
             <ul>
                 <li><a href="b"> home </a></li>
                 <li><a href="c"> clans </a></li>
@@ -125,7 +132,22 @@ padding-right:840px;
                 <li><a href="d"> about </a></li>
 
             </ul>
+
+
+
         </header>
+
+        <section claa="con">
+            <h2>Avatar</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolore. Impedit atque provident quos
+                quae
+                nemo minus harum ut doloribus eaque, eum sint dolores nisi error quod at nulla delectus Lorem ipsum
+                dolor sit, amet consectetur adipisicing elit. Sequi nihil possimus minima sunt corrupti rem, omnis
+                et? Beatae molestias odio sapiente, laudantium quis necessitatibus deserunt fugiat modi
+                voluptatibus. Et, placeat.</p>
+            <button>submit</button>
+        </section>
+
     </div>
 </body>
 
